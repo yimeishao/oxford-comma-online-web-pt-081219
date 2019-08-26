@@ -3,8 +3,7 @@ if array.size == 1
 array[0]
 elsif array.size == 2 
 array.join(" and ")
-else array.size >= 3
-array[-1] = "and #{array[-1]}"
-array.join(",")
+else 
+  
 end
 end
